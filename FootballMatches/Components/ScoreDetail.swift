@@ -38,7 +38,7 @@ struct ScoreDetail: View {
             
             HStack(spacing: 3) {
                 
-                if let date = match.date {
+                if let _ = match.date {
                     Text("\(match.date ?? ""),")
                         .foregroundColor(.lightGray)
                         .font(.custom("SFPro-Medium", size: 14))

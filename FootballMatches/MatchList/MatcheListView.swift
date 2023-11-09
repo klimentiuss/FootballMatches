@@ -12,6 +12,7 @@ struct MatcheListView: View {
     init() {
         let appearance = UINavigationBarAppearance()
         
+        appearance.configureWithTransparentBackground()
         appearance.backgroundColor = UIColor(Color.darkGray)
         
         appearance.largeTitleTextAttributes = [
@@ -47,6 +48,7 @@ struct MatcheListView: View {
                         }
                     }
                 }
+                .scrollIndicators(.hidden)
                 .navigationTitle("ALL EVENTS")
             }
             
