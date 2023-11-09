@@ -8,17 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		DC0281952AFCEB9200E98D92 /* FootballMatchesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0281942AFCEB9200E98D92 /* FootballMatchesApp.swift */; };
-		DC0281972AFCEB9200E98D92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0281962AFCEB9200E98D92 /* ContentView.swift */; };
+		DC0281972AFCEB9200E98D92 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0281962AFCEB9200E98D92 /* RootView.swift */; };
 		DC0281992AFCEB9300E98D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0281982AFCEB9300E98D92 /* Assets.xcassets */; };
 		DC02819C2AFCEB9300E98D92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC02819B2AFCEB9300E98D92 /* Preview Assets.xcassets */; };
+		DC0281A32AFCEBC800E98D92 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0281A22AFCEBC800E98D92 /* MatchCell.swift */; };
+		DCA06AEC2AFCFD9B0062C617 /* PilatExtended-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCA06AEB2AFCFD9B0062C617 /* PilatExtended-Bold.ttf */; };
+		DCA06AEE2AFCFE240062C617 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06AED2AFCFE240062C617 /* Match.swift */; };
+		DCA06AF22AFCFEF20062C617 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06AF12AFCFEF20062C617 /* DataManager.swift */; };
+		DCA06AF62AFD04D40062C617 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06AF52AFD04D40062C617 /* Command.swift */; };
+		DCA06AF92AFD075A0062C617 /* MatcheListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06AF82AFD075A0062C617 /* MatcheListView.swift */; };
+		DCA06AFD2AFD10BE0062C617 /* MatchDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06AFC2AFD10BE0062C617 /* MatchDetailsView.swift */; };
+		DCA06AFF2AFD11010062C617 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06AFE2AFD11010062C617 /* BackgroundView.swift */; };
+		DCA06B012AFD11510062C617 /* MatchDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06B002AFD11510062C617 /* MatchDetail.swift */; };
+		DCA06B052AFD1DD50062C617 /* ScoreDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06B042AFD1DD50062C617 /* ScoreDetail.swift */; };
+		DCA06B072AFD20650062C617 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06B062AFD20650062C617 /* CustomButton.swift */; };
+		DCA06B092AFD21160062C617 /* MatchSmallRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06B082AFD21160062C617 /* MatchSmallRow.swift */; };
+		DCA06B0D2AFD27CC0062C617 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06B0C2AFD27CC0062C617 /* Statistic.swift */; };
+		DCA06B0F2AFD2A4B0062C617 /* StatisticRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA06B0E2AFD2A4A0062C617 /* StatisticRow.swift */; };
+		DCAC88332AFCF4F40002900F /* SF-Pro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCAC88322AFCF49A0002900F /* SF-Pro.ttf */; };
+		DCAC88382AFCF9830002900F /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC88372AFCF9830002900F /* Color + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC0281912AFCEB9200E98D92 /* FootballMatches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballMatches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0281942AFCEB9200E98D92 /* FootballMatchesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballMatchesApp.swift; sourceTree = "<group>"; };
-		DC0281962AFCEB9200E98D92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC0281962AFCEB9200E98D92 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		DC0281982AFCEB9300E98D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC02819B2AFCEB9300E98D92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC0281A22AFCEBC800E98D92 /* MatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		DCA06AEB2AFCFD9B0062C617 /* PilatExtended-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PilatExtended-Bold.ttf"; sourceTree = "<group>"; };
+		DCA06AED2AFCFE240062C617 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		DCA06AF12AFCFEF20062C617 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		DCA06AF52AFD04D40062C617 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		DCA06AF82AFD075A0062C617 /* MatcheListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatcheListView.swift; sourceTree = "<group>"; };
+		DCA06AFC2AFD10BE0062C617 /* MatchDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailsView.swift; sourceTree = "<group>"; };
+		DCA06AFE2AFD11010062C617 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		DCA06B002AFD11510062C617 /* MatchDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetail.swift; sourceTree = "<group>"; };
+		DCA06B042AFD1DD50062C617 /* ScoreDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreDetail.swift; sourceTree = "<group>"; };
+		DCA06B062AFD20650062C617 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DCA06B082AFD21160062C617 /* MatchSmallRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchSmallRow.swift; sourceTree = "<group>"; };
+		DCA06B0C2AFD27CC0062C617 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
+		DCA06B0E2AFD2A4A0062C617 /* StatisticRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticRow.swift; sourceTree = "<group>"; };
+		DCAC88322AFCF49A0002900F /* SF-Pro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro.ttf"; sourceTree = "<group>"; };
+		DCAC88342AFCF57D0002900F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DCAC88372AFCF9830002900F /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +84,16 @@
 		DC0281932AFCEB9200E98D92 /* FootballMatches */ = {
 			isa = PBXGroup;
 			children = (
-				DC0281942AFCEB9200E98D92 /* FootballMatchesApp.swift */,
-				DC0281962AFCEB9200E98D92 /* ContentView.swift */,
+				DCA06AF72AFD07400062C617 /* App */,
+				DCA06B102AFD2E040062C617 /* Root */,
+				DCA06AFB2AFD10AD0062C617 /* MatchDetails */,
+				DCA06AFA2AFD075D0062C617 /* MatchList */,
+				DCA06AF02AFCFEE40062C617 /* Service */,
+				DCA06AEF2AFCFE270062C617 /* Model */,
+				DC0281A52AFCF25A00E98D92 /* Font */,
+				DCA06AF32AFD02810062C617 /* Components */,
+				DCA06AF42AFD038E0062C617 /* Extension */,
+				DCAC88342AFCF57D0002900F /* Info.plist */,
 				DC0281982AFCEB9300E98D92 /* Assets.xcassets */,
 				DC02819A2AFCEB9300E98D92 /* Preview Content */,
 			);
@@ -65,6 +106,87 @@
 				DC02819B2AFCEB9300E98D92 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC0281A52AFCF25A00E98D92 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DCA06AEB2AFCFD9B0062C617 /* PilatExtended-Bold.ttf */,
+				DCAC88322AFCF49A0002900F /* SF-Pro.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		DCA06AEF2AFCFE270062C617 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCA06AED2AFCFE240062C617 /* Match.swift */,
+				DCA06B0C2AFD27CC0062C617 /* Statistic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCA06AF02AFCFEE40062C617 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DCA06AF12AFCFEF20062C617 /* DataManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DCA06AF32AFD02810062C617 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DC0281A22AFCEBC800E98D92 /* MatchCell.swift */,
+				DCA06B002AFD11510062C617 /* MatchDetail.swift */,
+				DCA06AF52AFD04D40062C617 /* Command.swift */,
+				DCA06AFE2AFD11010062C617 /* BackgroundView.swift */,
+				DCA06B042AFD1DD50062C617 /* ScoreDetail.swift */,
+				DCA06B062AFD20650062C617 /* CustomButton.swift */,
+				DCA06B082AFD21160062C617 /* MatchSmallRow.swift */,
+				DCA06B0E2AFD2A4A0062C617 /* StatisticRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DCA06AF42AFD038E0062C617 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DCAC88372AFCF9830002900F /* Color + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DCA06AF72AFD07400062C617 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DC0281942AFCEB9200E98D92 /* FootballMatchesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DCA06AFA2AFD075D0062C617 /* MatchList */ = {
+			isa = PBXGroup;
+			children = (
+				DCA06AF82AFD075A0062C617 /* MatcheListView.swift */,
+			);
+			path = MatchList;
+			sourceTree = "<group>";
+		};
+		DCA06AFB2AFD10AD0062C617 /* MatchDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DCA06AFC2AFD10BE0062C617 /* MatchDetailsView.swift */,
+			);
+			path = MatchDetails;
+			sourceTree = "<group>";
+		};
+		DCA06B102AFD2E040062C617 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DC0281962AFCEB9200E98D92 /* RootView.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC02819C2AFCEB9300E98D92 /* Preview Assets.xcassets in Resources */,
+				DCAC88332AFCF4F40002900F /* SF-Pro.ttf in Resources */,
 				DC0281992AFCEB9300E98D92 /* Assets.xcassets in Resources */,
+				DCA06AEC2AFCFD9B0062C617 /* PilatExtended-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +261,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC0281972AFCEB9200E98D92 /* ContentView.swift in Sources */,
+				DCA06B072AFD20650062C617 /* CustomButton.swift in Sources */,
+				DCA06AFF2AFD11010062C617 /* BackgroundView.swift in Sources */,
+				DCA06AFD2AFD10BE0062C617 /* MatchDetailsView.swift in Sources */,
+				DCA06B0D2AFD27CC0062C617 /* Statistic.swift in Sources */,
+				DCA06AF92AFD075A0062C617 /* MatcheListView.swift in Sources */,
+				DCA06B092AFD21160062C617 /* MatchSmallRow.swift in Sources */,
+				DC0281A32AFCEBC800E98D92 /* MatchCell.swift in Sources */,
+				DCA06AF22AFCFEF20062C617 /* DataManager.swift in Sources */,
+				DCAC88382AFCF9830002900F /* Color + Extension.swift in Sources */,
+				DC0281972AFCEB9200E98D92 /* RootView.swift in Sources */,
+				DCA06B052AFD1DD50062C617 /* ScoreDetail.swift in Sources */,
+				DCA06AF62AFD04D40062C617 /* Command.swift in Sources */,
+				DCA06AEE2AFCFE240062C617 /* Match.swift in Sources */,
+				DCA06B0F2AFD2A4B0062C617 /* StatisticRow.swift in Sources */,
 				DC0281952AFCEB9200E98D92 /* FootballMatchesApp.swift in Sources */,
+				DCA06B012AFD11510062C617 /* MatchDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +408,7 @@
 				DEVELOPMENT_TEAM = 5KN7899368;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FootballMatches/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +438,7 @@
 				DEVELOPMENT_TEAM = 5KN7899368;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FootballMatches/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
