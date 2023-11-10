@@ -40,8 +40,7 @@ struct CustomButton: View {
                 }
             Spacer()
         }
-        .padding(.top)
-        .padding(.bottom, -10)
+        .padding(.vertical)
         .padding(.leading)
     }
 }

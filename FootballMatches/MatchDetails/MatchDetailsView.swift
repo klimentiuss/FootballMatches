@@ -26,7 +26,6 @@ struct MatchDetailsView: View {
                    ScoreDetail(match: match)
                 }
                 CustomButton(isStatisticSelected: $isStatisticSelected)
-                Spacer()
                 
                 if !isStatisticSelected {
                     ScrollView {
